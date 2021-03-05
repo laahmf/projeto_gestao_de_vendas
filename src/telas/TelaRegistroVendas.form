@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="1" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="txtCliente" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblIdCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtIdCliente" min="-2" pref="52" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnBuscarCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblDataDaVenda" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtDataDaVenda" min="-2" pref="85" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblIdProduto5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIdProduto4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIdProduto3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIdProduto" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblIdProduto2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtIdProduto2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Component id="txtIdProduto3" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="txtIdProduto4" alignment="0" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <Component id="txtIdProduto5" alignment="0" min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Component id="txtIdProduto" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnBuscarProduto1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnBuscarProduto5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnBuscarProduto4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnBuscarProduto3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnBuscarProduto2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnRegistrar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblPreco" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="51" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtPreco" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtDescricaoProduto" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Component id="lblDescricaoProduto" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtQuant" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="lblquant" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnLimpar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtPreco4" alignment="0" pref="80" max="32767" attributes="0"/>
+                          <Component id="txtPreco3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtPreco2" alignment="1" max="32767" attributes="0"/>
+                          <Component id="lblPreco5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPreco2" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPreco3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPreco4" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPreco5" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="19" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblDescricaoProduto3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescricaoProduto2" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescricaoProduto4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescricaoProduto5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDescricaoProduto2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtDescricaoProduto3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtDescricaoProduto4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtDescricaoProduto5" alignment="0" min="-2" pref="189" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtQuant2" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="txtQuant4" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="txtQuant5" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="lblQuant5" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuant4" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQuant3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQuant3" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="lblQuant2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+                      <Component id="lblRegistroVendas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblPrecoTotal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="txtPrecoTotal" min="-2" pref="74" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="btnBuscarPrecoTotal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="lblRegistroVendas" min="-2" pref="56" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBuscarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDataDaVenda" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDataDaVenda" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Component id="txtCliente" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="lblDescricaoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPreco" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblquant" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtDescricaoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQuant" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPreco" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBuscarProduto1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIdProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblQuant2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="lblDescricaoProduto2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPreco2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblIdProduto2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtQuant2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDescricaoProduto2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPreco2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBuscarProduto2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIdProduto2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQuant3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescricaoProduto3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPreco3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIdProduto3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtQuant3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDescricaoProduto3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPreco3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBuscarProduto3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIdProduto3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQuant4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescricaoProduto4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPreco4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIdProduto4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtQuant4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDescricaoProduto4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPreco4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBuscarProduto4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIdProduto4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQuant5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescricaoProduto5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPreco5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIdProduto5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtQuant5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDescricaoProduto5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPreco5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBuscarProduto5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIdProduto5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtPrecoTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPrecoTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBuscarPrecoTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="lblIdProduto" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnRegistrar" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLimpar" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnRegistrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrar "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegistrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimparActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIdCliente">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIdCliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID do Cliente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIdProduto">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIdProduto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Produto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDataDaVenda">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data da Venda"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRegistroVendas">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="REGISTRO VENDAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblquant">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quant."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQuant">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIdProduto3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Produto 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIdProduto2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Produto 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuant3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quant. 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuant2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quant. 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIdProduto2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQuant2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQuant3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIdProduto3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIdProduto4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQuant4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIdProduto4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Produto 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuant4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quant. 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIdProduto5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Produto 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQuant5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quant. 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIdProduto5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQuant5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDescricaoProduto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o Produto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDescricaoProduto2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o Produto 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDescricaoProduto3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o Produto 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDescricaoProduto4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o Produto 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDescricaoProduto5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o Produto 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescricaoProduto5">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescricaoProduto4">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescricaoProduto3">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescricaoProduto2">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescricaoProduto">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarProduto1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarProduto1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarProduto2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarProduto2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarProduto3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarProduto3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarProduto4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarProduto4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarProduto5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarProduto5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarCliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarClienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCliente">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPreco">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPreco2">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPreco3">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPreco4">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPreco5">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPreco">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pre&#xe7;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPreco2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pre&#xe7;o 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPreco3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pre&#xe7;o 3 "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPreco4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pre&#xe7;o 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPreco5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pre&#xe7;o 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPrecoTotal">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Valor Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPrecoTotal">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarPrecoTotal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarPrecoTotalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="txtDataDaVenda">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
